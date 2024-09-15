@@ -14,6 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    maskImage: {
+      'linear-gradient': 'linear-gradient(to right, transparent, black, transparent)',
+    },
   },
   plugins: [],
 };
